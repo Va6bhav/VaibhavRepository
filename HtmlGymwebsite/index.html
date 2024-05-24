@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project On Gym WebSite</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+        /* first css rest */
+        body {
+            font-family:'Ubuntu', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('image/gym.jpg');
+            background-size: cover;
+           
+        }
+        .left{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        display: inline-block; 
+        /* border:2px solid red; */
+        }
+        .right{
+        position: absolute;
+        right: 70px;
+        top: 10px;
+        display: inline-block; 
+        /* border:2px solid yellow; */
+        }
+        .center{
+        display: block;
+        width: 50%; 
+        margin: 10px 470px;
+        padding:90;
+        /* border:2px solid green; */
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+        display: inline-block;
+        font-size:20px ;
+        }
+        .navbar li a{
+            color: grey;
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 10px;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: white;
+        }
+        .left img{
+            width: 90px;
+        }
+        .left div{
+            text-align: center;
+            font-size: 20px;
+        }
+        .btn{
+            font-family:'Ubuntu', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0px 4px;
+            padding: 9px 4px;
+            color: gray;
+            background-color: black;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 10px;
+            cursor: pointer;
+            
+            
+        }
+        .btn:hover{
+            background-color: white; 
+        }
+        .p{
+            /* border: 2px solid white; */
+            /* text-align: left; */
+            margin: 170px 30px;
+            padding: 90px;
+            width: 1290px;
+            color: white;
+        }
+        .container {
+        /* border: 2px solid white; */
+        position: absolute;
+        /* right: 10px;
+        margin: 10px 80px,40px; */
+        padding: 1px;
+        width: 99%;
+        }
+        .form-group input {
+        font-family:'Ubuntu', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+       
+    }
+
+    .container button {
+        display: block;
+        width: 20%;
+        margin: 20px auto;
+    }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+     <div class="left">
+     <!-- left box for logo -->
+     <!-- left -->
+     <img src="image/gymlogo.jpg" alt="">
+     <div>Fintness Gym</div>
+     </div>
+     <div class="center">
+      <!-- center box -->
+      <!-- center -->
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Fitness Routine</a> </li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Support</a></li>
+    </ul>
+     </div>
+     <div class="right">
+      <!-- right box -->
+      <!-- right -->
+      <button class="btn">Contact Us</button>
+      <button class="btn">Buy Supplements</button>
+     </div>
+    </header>
+    <div class="p">
+        <!-- Container -->
+        <h1>Join our state-of-the-art gym and achieve your fitness goals with top-notch equipment and expert trainers. Experience personalized training and a supportive community in a welcoming environment. </h1>
+    </div>
+    <div class="container">
+        <h1>Join the gym to be  your best self</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+    </div>
+    <button class="btn">Submit</button>
+</body>
+</html>
